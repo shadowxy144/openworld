@@ -1,0 +1,6 @@
+Bu shell dosyası istediğiiniz bir dizini direk olarak web sayfasına açabileceğiniz bir tooldur
+kullanmak için doğru dizini girdiğinizden emin olun.
+
+This shell file is a tool that allows you to directly open any directory you want to a web page.
+Make sure you enter the correct directory to use it.
+
