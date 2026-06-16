@@ -39,13 +39,12 @@ wait
 
 clear
 
-# 1. seçeneğin içerisine bunu yapıştır
 {
-    # GPG anahtarını ve depoyu ekle
+
     curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg
     echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
     
-    # Güncelle ve kur
+  
     sudo apt update
     sudo apt install -y cloudflared
 } > /dev/null 2>&1 & 
