@@ -5,6 +5,7 @@ anadizin=$(pwd)
 while true
 do
 
+clear
 
 cat << EOF
 
